@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['organik']
+
+roboflow:
+  workspace: virrdas-workspace
+  project: organik-y6j7w
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/virrdas-workspace/organik-y6j7w/dataset/3
